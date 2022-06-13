@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "servicos",
+  "info": {
+    "singularName": "servico",
+    "pluralName": "servicos",
+    "displayName": "servico"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nome": {
+      "type": "string"
+    },
+    "TipoServico": {
+      "type": "string"
+    },
+    "Localizacao": {
+      "type": "string"
+    },
+    "Telefone": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Disponibilidade": {
+      "type": "boolean"
+    }
+  }
+}
